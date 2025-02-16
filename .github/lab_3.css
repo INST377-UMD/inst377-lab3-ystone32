@@ -1,0 +1,85 @@
+body {
+    background-color: #92dce5;
+  }
+  
+  #bar {
+    text-align: center;
+    color: white;
+    background-color: #7c7c7c;
+    padding: 10px;
+    margin: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    clear: both;
+  }
+  
+  #main-nav {
+    background-color: crimson;
+    text-align: left;
+  }
+  
+  
+  
+  #main-nav li:hover {
+    background-color: #7c7c7c;
+    color: white;
+  }
+  
+  #main-nav ul li {
+    list-style-type: none;
+    display:inline-block;
+    text-align: left;
+    padding: 10px;
+  
+  }
+  
+  
+  .game-area {
+    width: 60%;
+    float: left;
+    margin: 5px;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  #fullName {
+    width:40px;
+  }
+  #fullName:focus {
+    width:100px;
+  }
+
+  .game-area h1 {
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  
+  
+  #rules-area {
+    text-align: center;
+    background-color: rgb(13, 165, 13);
+    float: right;
+    width: 30%;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+  }
+
+  #rules-area h1{
+    text-decoration: underline;
+  }
+  #rules-area:hover {
+    background-color: red;
+  }
+
+  
+  .main-body {
+      width: 100%;
+      margin-bottom: 5px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
