@@ -17,10 +17,7 @@ body {
     text-align: left;
   }
   
-  #main-nav li {
-    display: inline-block;
-    position: relative;
-  }
+  
   
   #main-nav li:hover {
     background-color: #7c7c7c;
@@ -29,8 +26,10 @@ body {
   
   #main-nav ul li {
     list-style-type: none;
+    display:inline-block;
     text-align: left;
     padding: 10px;
+  
   }
   
   
